@@ -1,16 +1,34 @@
-## Hi there 👋
+``` java
+public class Mia extends Student {
 
-<!--
-**miaravioli/miaravioli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  // TODO: never stop learning !!
 
-Here are some ideas to get you started:
+  final String name =            "mia ravishankar";
+  final String role =            "cs student @ columbia";
+  final String[] sideQuests =    {"photography", "nature", "writing"};
+  boolean bobaStatus =           true;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  record Script(String name, String proficiency) {}
+  final Script[] stack = new Script[] {
+      new Script("java",       "proficient"),
+      new Script("python",     "proficient"),
+      new Script("c/c++",      "intermediate"),
+      new Script("html/css",   "intermediate"),
+      new Script("javascript", "intermediate"),
+      new Script("sql",        "foundational")
+  };
+
+  public void welcome() {
+    System.out.printf("hey! i'm %s. welcome to my happy place :)\n", name);
+  }
+
+  public String getCurrentFocus() {
+    return "learn & build fun projects";
+  }
+
+  public boolean isProductive() {
+    return bobaStatus;
+  }
+}
+
+```
