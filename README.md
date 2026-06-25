@@ -5,7 +5,6 @@ public class Mia extends Student {
 
   final String name         =  "mia ravishankar";
   final String role         =  "cs student @ columbia";
-  final String[] sideQuests =  {"photography", "nature", "writing"};
   boolean bobaStatus        =  true;
 
   String[] languages        =  {"java", "python", "c/c++", "sql", "javascript"}
