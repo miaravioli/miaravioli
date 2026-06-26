@@ -7,7 +7,7 @@ public class Mia extends Student {
   final String role         =  "cs student @ columbia";
   boolean bobaStatus        =  true;
 
-  String[] languages        =  {"java", "python", "c/c++", "sql", "javascript", "typescript", "html/css"};\
+  String[] languages        =  {"java", "python", "c/c++", "sql", "javascript", "typescript", "html/css"};
   String[] skills           =  {"flask", "SQLAlchemy", "aws", "kubernetes", "ci/cd"};            
 
   public void welcome() {
