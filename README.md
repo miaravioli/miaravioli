@@ -8,7 +8,7 @@ public class Mia extends Student {
   boolean bobaStatus        =  true;
 
   String[] languages        =  {"java", "python", "c/c++", "sql", "javascript", "typescript", "html/css"};
-  String[] skills           =  {"fastAPI", "SQLAlchemy", "aws", "kubernetes", "ci/cd"};            
+  String[] skills           =  {"pytorch", "opencv", "unity", "react", "MATLAB"};            
 
   public void welcome() {
     System.out.printf("hey! i'm %s. welcome to my happy place :)\n", name);
